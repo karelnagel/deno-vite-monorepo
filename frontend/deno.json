@@ -1,0 +1,17 @@
+{
+    "tasks": {
+        "dev": "vite --open",
+        "build": "vite build",
+        "lint": "eslint .",
+        "preview": "vite preview --open"
+    },
+    "imports": {
+        "autoprefixer": "npm:autoprefixer@^10.4.20",
+        "postcss": "npm:postcss@^8.4.47",
+        "react": "https://esm.sh/react@18.2.0",
+        "react-dom":"npm:react-dom",
+        "@vitejs/plugin-react": "npm:@vitejs/plugin-react@^4.3.3",
+        "tailwindcss": "npm:tailwindcss@^3.4.14",
+        "vite": "npm:vite@^5.4.10"
+    }
+}
